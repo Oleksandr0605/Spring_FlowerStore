@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import ua.edu.ucu.apps.spring.flowers.Flower;
 
 @RestController
-@SpringBootApplication
 @RequestMapping("/api/flowers")
 public class FlowerController {
     @GetMapping("/list")
