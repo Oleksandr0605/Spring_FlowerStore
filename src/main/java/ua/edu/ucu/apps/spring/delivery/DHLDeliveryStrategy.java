@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @RequestMapping("/api/delivery")
-public class DHLDeliveryStrategy implements Delivery{
+public class DHLDeliveryStrategy implements Delivery {
     @Override
     @GetMapping("/dhl")
     public String deliver() {

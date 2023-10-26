@@ -15,6 +15,6 @@ import ua.edu.ucu.apps.spring.flowers.Flower;
 public class FlowerController {
     @GetMapping("/list")
     public List<Flower> floweString() {
-		  return List.of(new Flower());
-	}
+        return List.of(new Flower());
+    }
 }
